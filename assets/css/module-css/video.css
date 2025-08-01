@@ -1,12 +1,11 @@
-
 /** video-section **/
 
-.video-section{
+.video-section {
   overflow: hidden;
   padding: 160px 0px 258px 0px;
 }
 
-.video-section .bg-layer:before{
+.video-section .bg-layer:before {
   position: absolute;
   content: '';
   background: radial-gradient(50% 96.72% at 50% 50%, rgba(28, 28, 28, 0.5) 0%, #1C1C1C 100%);
@@ -16,7 +15,7 @@
   top: 0px;
 }
 
-.video-section .video-btn a{
+.video-section .video-btn a {
   position: relative;
   display: inline-block;
   font-size: 50px;
@@ -52,15 +51,15 @@
   transition: all .4s ease;
 }
 
-.video-section .video-btn a:after{
+.video-section .video-btn a:after {
   -webkit-animation-delay: .6s;
   animation-delay: .6s;
 }
 
-.video-section h2{
+.video-section h2 {
   position: relative;
   display: block;
-  font-size: 60px;
+  font-size: 32px;
   line-height: 60px;
   color: #fff;
   font-weight: 800;
@@ -76,97 +75,37 @@
 
 /** RESPONSIVE-CSS **/
 
-@media only screen and (max-width: 1599px){
+@media only screen and (max-width: 1599px) {}
 
 
+@media only screen and (max-width: 1200px) {}
 
-}
+@media only screen and (max-width: 991px) {}
 
+@media only screen and (max-width: 767px) {
 
-@media only screen and (max-width: 1200px){
-
-
-
-}
-
-@media only screen and (max-width: 991px){
-
-
-
-}
-
-@media only screen and (max-width: 767px){
-
-  .video-section h2{
+  .video-section h2 {
     font-size: 40px;
     line-height: 50px;
   }
 
-  .video-section h2 br{
+  .video-section h2 br {
     display: none;
   }
 
-  .video-section{
+  .video-section {
     padding: 70px 0px 160px 0px;
   }
 
 }
 
-@media only screen and (max-width: 599px){
+@media only screen and (max-width: 599px) {}
 
-  
+@media only screen and (max-width: 499px) {
 
-}
-
-@media only screen and (max-width: 499px){
-
-  .video-section h2{
+  .video-section h2 {
     font-size: 28px;
     line-height: 36px;
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
