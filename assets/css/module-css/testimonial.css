@@ -1,25 +1,24 @@
-
 /** testimonial-section **/
 
-.testimonial-section{
+.testimonial-section {
   position: relative;
 }
 
-.testimonial-section .content-box{
-  position: relative;
-  display: block;
-}
-
-.testimonial-block-one{
+.testimonial-section .content-box {
   position: relative;
   display: block;
 }
 
-.testimonial-block-one .text-box{
+.testimonial-block-one {
+  position: relative;
+  display: block;
+}
+
+.testimonial-block-one .text-box {
   position: relative;
 }
 
-.testimonial-block-one .text-box:before{
+.testimonial-block-one .text-box:before {
   position: absolute;
   content: '';
   background: #E5E5E5;
@@ -29,18 +28,18 @@
   bottom: 0px;
 }
 
-.testimonial-block-one .text-box .text{
+.testimonial-block-one .text-box .text {
   position: relative;
   display: block;
-  font-size: 24px;
-  line-height: 40px;
+  font-size: 18px;
+  line-height: 22px;
   font-family: var(--title-font);
   font-weight: 700;
   color: var(--title-color);
   margin-bottom: 21px;
 }
 
-.testimonial-block-one .text-box .rating li{
+.testimonial-block-one .text-box .rating li {
   position: relative;
   display: inline-block;
   font-size: 16px;
@@ -48,17 +47,17 @@
   margin-right: 3px;
 }
 
-.testimonial-block-one .text-box .rating li:last-child{
+.testimonial-block-one .text-box .rating li:last-child {
   margin: 0px !important;
 }
 
-.testimonial-block-one .author-box{
+.testimonial-block-one .author-box {
   position: relative;
   display: block;
   padding: 3px 0px 3px 85px;
 }
 
-.testimonial-block-one .author-box .thumb-box{
+.testimonial-block-one .author-box .thumb-box {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -67,12 +66,12 @@
   border-radius: 50%;
 }
 
-.testimonial-block-one .author-box .thumb-box img{
+.testimonial-block-one .author-box .thumb-box img {
   width: 100%;
   border-radius: 50%;
 }
 
-.testimonial-block-one .author-box h3{
+.testimonial-block-one .author-box h3 {
   position: relative;
   display: block;
   font-size: 22px;
@@ -81,20 +80,20 @@
   margin-bottom: 6px;
 }
 
-.testimonial-block-one .author-box .designation{
+.testimonial-block-one .author-box .designation {
   position: relative;
   display: block;
   font-size: 16px;
   line-height: 28px;
 }
 
-.testimonial-section .owl-nav{
+.testimonial-section .owl-nav {
   position: absolute;
   right: 0px;
   bottom: 90px;
 }
 
-.nav-style-one .owl-nav button{
+.nav-style-one .owl-nav button {
   position: relative;
   display: inline-block;
   width: 40px;
@@ -110,45 +109,45 @@
   transition: all 500ms ease;
 }
 
-.nav-style-one .owl-nav button.owl-prev{
+.nav-style-one .owl-nav button.owl-prev {
   margin-right: 10px;
 }
 
-.nav-style-one .owl-nav button:hover{
+.nav-style-one .owl-nav button:hover {
   color: #fff;
 }
 
-.nav-style-one .owl-nav button:before{
+.nav-style-one .owl-nav button:before {
   position: absolute;
   content: '';
   width: 100%;
   height: 100%;
   left: 0px;
   top: 0px;
-  transform: scale(0,0);
+  transform: scale(0, 0);
   z-index: -1;
   border-radius: 50%;
   transition: all 500ms ease;
 }
 
-.nav-style-one .owl-nav button:hover:before{
-  transform: scale(1,1);
+.nav-style-one .owl-nav button:hover:before {
+  transform: scale(1, 1);
 }
 
-.testimonial-section .image-box{
+.testimonial-section .image-box {
   position: relative;
   display: block;
 }
 
-.testimonial-section .image-box img{
+.testimonial-section .image-box img {
   width: 100%;
 }
 
-.testimonial-section .image-box .image{
+.testimonial-section .image-box .image {
   position: relative;
 }
 
-.testimonial-section .image-box .image:before{
+.testimonial-section .image-box .image:before {
   position: absolute;
   content: '';
   background: #FFF1ED;
@@ -159,7 +158,7 @@
   z-index: -1;
 }
 
-.testimonial-section .image-box .image-shape{
+.testimonial-section .image-box .image-shape {
   position: absolute;
   left: -53px;
   top: -39px;
@@ -171,11 +170,11 @@
 
 /** testimonial-style-two **/
 
-.testimonial-style-two{
+.testimonial-style-two {
   position: relative;
 }
 
-.testimonial-style-two .inner-container{
+.testimonial-style-two .inner-container {
   position: relative;
   display: block;
   max-width: 990px;
@@ -183,11 +182,11 @@
   margin: 0 auto;
 }
 
-.testimonial-style-two .bx-viewport{
+.testimonial-style-two .bx-viewport {
   overflow: visible !important;
 }
 
-.testimonial-style-two .content-box{
+.testimonial-style-two .content-box {
   position: relative;
   display: block;
   background: #fff;
@@ -195,20 +194,20 @@
   padding: 60px 70px 70px 70px;
 }
 
-.testimonial-style-two .content-box .rating{
+.testimonial-style-two .content-box .rating {
   position: relative;
   display: block;
   margin-bottom: 14px;
 }
 
-.testimonial-style-two .content-box .rating li{
+.testimonial-style-two .content-box .rating li {
   position: relative;
   display: inline-block;
   font-size: 16px;
   color: #FF9900;
 }
 
-.testimonial-style-two .content-box .text{
+.testimonial-style-two .content-box .text {
   position: relative;
   display: block;
   font-size: 24px;
@@ -217,7 +216,7 @@
   margin-bottom: 33px;
 }
 
-.testimonial-style-two .content-box .name{
+.testimonial-style-two .content-box .name {
   position: relative;
   display: block;
   font-size: 22px;
@@ -225,33 +224,33 @@
   font-weight: 700;
 }
 
-.testimonial-style-two .content-box .designation{
+.testimonial-style-two .content-box .designation {
   position: relative;
   display: block;
   font-size: 16px;
   line-height: 24px;
 }
 
-.testimonial-style-two .slider-pager{
+.testimonial-style-two .slider-pager {
   position: relative;
   margin-top: -45px;
   z-index: 1;
 }
 
-.testimonial-style-two .slider-pager .thumb-box{
+.testimonial-style-two .slider-pager .thumb-box {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.testimonial-style-two .slider-pager .thumb-box li{
+.testimonial-style-two .slider-pager .thumb-box li {
   position: relative;
   display: inline-block;
   margin: 0px 15px;
 }
 
-.testimonial-style-two .slider-pager .thumb-box li a{
+.testimonial-style-two .slider-pager .thumb-box li a {
   position: relative;
   display: inline-block;
   width: 70px;
@@ -259,16 +258,16 @@
   border-radius: 50%;
 }
 
-.testimonial-style-two .slider-pager .thumb-box li a img{
+.testimonial-style-two .slider-pager .thumb-box li a img {
   width: 100%;
 }
 
-.testimonial-style-two .slider-pager .thumb-box li a.active{
+.testimonial-style-two .slider-pager .thumb-box li a.active {
   width: 90px;
   height: 90px;
 }
 
-.testimonial-style-two .bx-controls{
+.testimonial-style-two .bx-controls {
   position: absolute;
   left: 0px;
   top: 50%;
@@ -277,7 +276,7 @@
   z-index: 99;
 }
 
-.testimonial-style-two .bx-controls a{
+.testimonial-style-two .bx-controls a {
   position: absolute;
   top: 0px;
   display: inline-block;
@@ -293,36 +292,36 @@
   z-index: 1;
 }
 
-.testimonial-style-two .bx-controls a:hover{
+.testimonial-style-two .bx-controls a:hover {
   color: #fff;
 }
 
-.testimonial-style-two .bx-controls a.bx-prev{
+.testimonial-style-two .bx-controls a.bx-prev {
   left: -30px;
 }
 
-.testimonial-style-two .bx-controls a.bx-next{
+.testimonial-style-two .bx-controls a.bx-next {
   right: -30px;
 }
 
-.testimonial-style-two .bx-controls a:before{
+.testimonial-style-two .bx-controls a:before {
   position: absolute;
   content: '';
   width: 100%;
   height: 100%;
   left: 0px;
   top: 0px;
-  transform: scale(0,0);
+  transform: scale(0, 0);
   border-radius: 50%;
   z-index: -1;
   transition: all 500ms ease;
 }
 
-.testimonial-style-two .bx-controls a:hover:before{
-  transform: scale(1,1);
+.testimonial-style-two .bx-controls a:hover:before {
+  transform: scale(1, 1);
 }
 
-.testimonial-style-two .pattern-layer .pattern-1{
+.testimonial-style-two .pattern-layer .pattern-1 {
   position: absolute;
   left: 0px;
   bottom: 0px;
@@ -331,7 +330,7 @@
   background-repeat: no-repeat;
 }
 
-.testimonial-style-two .pattern-layer .pattern-2{
+.testimonial-style-two .pattern-layer .pattern-2 {
   position: absolute;
   right: 0px;
   top: 0px;
@@ -344,140 +343,88 @@
 
 /** RTL-CSS **/
 
-.rtl .testimonial-block-one{
+.rtl .testimonial-block-one {
   text-align: right;
 }
 
-.rtl .testimonial-block-one .author-box{
+.rtl .testimonial-block-one .author-box {
   padding-left: 0px;
   padding-right: 85px;
 }
 
-.rtl .testimonial-block-one .author-box .thumb-box{
+.rtl .testimonial-block-one .author-box .thumb-box {
   left: inherit;
   right: 0px;
 }
 
-.rtl .testimonial-section .owl-nav{
+.rtl .testimonial-section .owl-nav {
   right: inherit;
   left: 0px;
 }
 
-.rtl .testimonial-block-one .text-box:before{
+.rtl .testimonial-block-one .text-box:before {
   left: inherit;
   right: 0px;
 }
 
 /** RESPONSIVE-CSS **/
 
-@media only screen and (max-width: 1599px){
+@media only screen and (max-width: 1599px) {}
 
 
+@media only screen and (max-width: 1200px) {}
 
-}
+@media only screen and (max-width: 991px) {
 
-
-@media only screen and (max-width: 1200px){
-
-
-
-}
-
-@media only screen and (max-width: 991px){
-
-  .testimonial-block-one{
+  .testimonial-block-one {
     margin-bottom: 30px;
   }
 
-  .testimonial-style-two .bx-controls{
+  .testimonial-style-two .bx-controls {
     display: none;
   }
 
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) {
 
-  .testimonial-section{
+  .testimonial-section {
     padding-top: 70px;
   }
 
-  .testimonial-section .content-box{
+  .testimonial-section .content-box {
     margin-right: 0px;
   }
 
-  .testimonial-section .image-box{
+  .testimonial-section .image-box {
     margin: 0px;
     padding: 0px;
   }
 
 }
 
-@media only screen and (max-width: 599px){
+@media only screen and (max-width: 599px) {
 
-  .testimonial-style-two .content-box{
+  .testimonial-style-two .content-box {
     padding-left: 30px;
     padding-right: 30px;
   }
 
 }
 
-@media only screen and (max-width: 499px){
+@media only screen and (max-width: 499px) {
 
-  .testimonial-section .owl-nav{
+  .testimonial-section .owl-nav {
     display: none;
   }
 
-  .testimonial-block-one .text-box:before{
+  .testimonial-block-one .text-box:before {
     width: 100%;
   }
 
-  .testimonial-style-two .content-box .text{
+  .testimonial-style-two .content-box .text {
     font-size: 18px;
     line-height: 26px;
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

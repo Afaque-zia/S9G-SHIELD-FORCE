@@ -498,7 +498,7 @@
    top: -30%;
    width: 100%;
    height: calc(100% + 30%);
-   background-size: cover;
+   background-size: 90%;
    background-repeat: no-repeat;
    background-position: center;
  }
@@ -566,15 +566,15 @@
  }
 
  .sec-pad {
-   padding: 144px 0px 150px 0px;
+   padding: 44px 0px 50px 0px;
  }
 
  .sec-pad-2 {
-   padding: 144px 0px 150px 0px;
+   padding: 44px 0px 50px 0px;
  }
 
  .sec-pad-3 {
-   padding: 150px 0px;
+   padding: 50px 0px;
  }
 
  .mr-0 {
@@ -962,6 +962,8 @@
    position: relative;
    display: flex;
    align-items: center;
+   justify-content: space-evenly;
+   flex-grow: 1;
  }
 
  .main-header .menu-right-content {
@@ -1844,7 +1846,7 @@
    color: #101A30;
    font-weight: 500;
    padding-left: 27px;
-   margin-bottom: 11px;
+   margin-bottom: 7px;
  }
 
  .list-style-one li:last-child {
@@ -1916,7 +1918,7 @@
 
  .main-footer .widget-section {
    position: relative;
-   padding: 104px 0px 89px 0px;
+   padding: 30px 0px 10px 0px;
  }
 
  .main-footer .widget-section .bg-layer {
